@@ -1,4 +1,4 @@
-[![Release](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml)
+[![Release](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml/badge.svg)](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml)
 
 # Awesome Timer
 
