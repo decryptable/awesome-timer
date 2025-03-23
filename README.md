@@ -1,3 +1,5 @@
+[![Release](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml)
+
 # Awesome Timer
 
 A customizable timer application with shell command execution capabilities.
