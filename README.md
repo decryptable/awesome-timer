@@ -1,4 +1,10 @@
-[![Release](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml/badge.svg)](https://github.com/decryptable/awesome-timer/actions/workflows/release.yaml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/decryptable/awesome-timer/release.yaml?label=Build%20Status)
+![GitHub Release](https://img.shields.io/github/v/release/decryptable/awesome-timer?display_name=tag&label=Latest%20Version)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/decryptable/awesome-timer)
+![GitHub package.json prod dependency version](https://img.shields.io/github/package-json/dependency-version/decryptable/awesome-timer/next?label=NextJS%20Version)
+![GitHub package.json prod dependency version](https://img.shields.io/github/package-json/dependency-version/decryptable/awesome-timer/react?label=React%20Version)
+
+
 
 # Awesome Timer
 
