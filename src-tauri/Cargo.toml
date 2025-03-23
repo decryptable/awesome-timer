@@ -1,0 +1,40 @@
+[package]
+name = "awesome-timer"
+version = "1.0.0"
+description = "Customizable timer with shell actions"
+authors = ["decryptable"]
+license = "MIT"
+repository = "https://github.com/decryptable/awesome-timer"
+edition = "2021"
+rust-version = "1.57"
+
+[build-dependencies]
+tauri-build = { version = "1.2", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.2", features = [
+  "dialog-all",
+  "fs-read-file",
+  "fs-write-file",
+  "fs-read-dir",
+  "fs-copy-file",
+  "fs-create-dir",
+  "fs-remove-dir",
+  "fs-remove-file",
+  "fs-rename-file",
+  "fs-exists",
+  "path-all",
+  "notification-all",
+  "os-all",
+  "process-exit",
+  "process-relaunch",
+  "shell-execute",
+  "shell-open",
+  "window-all"
+] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
